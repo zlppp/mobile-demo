@@ -23,11 +23,13 @@
       </li>
     </ul>
     <note-header></note-header>
+    <footer-nav></footer-nav>
   </div>
   
 </template>
 <script>
   import noteHeader from '../../components/note/header'
+  import footerNav from '../../components/footer'
   import { mapGetters} from 'vuex'
   export default {
     data() {
@@ -41,7 +43,8 @@
       ])
     },
     components: {
-      noteHeader
+      noteHeader,
+      footerNav
     },
     created() {
       this.num = this.isNoteList.length

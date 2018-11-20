@@ -29,9 +29,6 @@
   .footer {
     height: 1.8rem;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     border-top: 2px solid #ccc;
     background-color: #fff;
   }

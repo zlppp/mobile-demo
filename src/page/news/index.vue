@@ -72,8 +72,8 @@
     width: 100%;
     margin: 0 auto;
   }
-  .content {
-    margin-bottom: 1.8rem;
+  .container {
+    margin-bottom: 70px;
   }
   .cont-ul {
     padding-top: 0.5rem;
